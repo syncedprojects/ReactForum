@@ -2,6 +2,10 @@
 
 SPA веб-приложение, простой форум на React, с аутентификацией Firebase Email от Google. Используются также библиотеки React Router и React Redux.
 
+### DEMO
+
+https://react-forum.eldorjon.uz/
+
 ### Предпосылки
 
 Для компиляции в вашей системе должны быть установлены node.js и webpack.  
