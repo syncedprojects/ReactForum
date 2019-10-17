@@ -1,0 +1,26 @@
+#app-container {
+    padding: 1.75rem 0;
+}
+
+#app-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.auth-form {
+    max-width: 300px;
+}
+
+hr {
+    border-top: 1px solid rgba( 0, 0, 0, 0.05 );
+}

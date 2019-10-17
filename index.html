@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Forum React App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/assets/Font-Awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-minty.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/javascript" src="/assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/assets/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD-jajUmvdd1w2hp-sge4WCtINnVdAUzag",
+            authDomain: "forum-react-app.firebaseapp.com",
+            databaseURL: "https://forum-react-app.firebaseio.com",
+            projectId: "forum-react-app",
+            storageBucket: "",
+            messagingSenderId: "441465667912",
+            appId: "1:441465667912:web:10fc0fbca1ad9bf5c3f37d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp( firebaseConfig );
+        firebase.auth().languageCode = $( 'html' ).attr( 'lang' );
+    </script>
+    <script type="text/javascript" src="/dist/bundle.js"></script>
+    <script type="text/javascript" src="/assets/js/scripts.js"></script>
+</body>
+</html>
